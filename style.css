@@ -1,0 +1,32 @@
+body{
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 12px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+h1{
+    color:bisque ;
+}
+p{
+    color: blanchedalmond;
+}
+button{
+    padding: 10px;
+    border-radius: 300px;
+    background-color: azure;
+    border-style: hidden;
+}
+h4{
+    color:cornflowerblue;
+}
+.button{
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: lavenderblush;
+  color: bisque;
+}
