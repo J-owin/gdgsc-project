@@ -3,30 +3,33 @@ body{
     margin: 10px;
     padding: 12px;
     font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 
 }
 h1{
+    
     color:bisque ;
 }
 p{
-    color: blanchedalmond;
+    font-family: "Poppins";
+    color: rgb(194, 179, 157);
 }
 button{
+    font-family: 'Poppins';
     padding: 10px;
-    border-radius: 300px;
+    border-radius: 30px;
     background-color: azure;
     border-style: hidden;
 }
 h4{
+    
     color:cornflowerblue;
 }
-.button{
-  transition: all 0.3s ease;
+.button:hover { 
+  background-color: lavenderblush;
 }
 
-.button:hover {
-  background-color: lavenderblush;
+.button:hover h4 {
   color: bisque;
 }
