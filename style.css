@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif ,Helvetica;
+    background: #0a0f1f;
+    color: #d7d9e0;
+}
+header{
+    text-align: center;
+    padding: 30px 20px;
+    background: linear-gradient(90deg, #010925, #6a3aa8);
+    color: white;
+}
+.tagline{
+    padding-bottom: 10px;
+    margin-top: -5px;
+    opacity: 0.8;
+}
+.intro{
+    display: flex;
+    gap: 20px;
+    padding: 40px 20px;
+    align-items: center;
+    max-width: 900px;
+    margin: auto;
+}
+.profilepic{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #111d4e;
+    object-fit: cover;
+
+}
+.intro-text h2 {
+    margin: 0 0px 10px ;
+    color: #aea4bd;
+}
+.showcase-grid{
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 20px;
+}
+.grid{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+}
+.card {
+    padding: 40px 20px;
+    background: #13182b;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #1b4fff;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px #1b4fff;
+}
+
+/* INTERESTS CARDS */
+.interests {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.interest-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.interest {
+    background: #13182b;
+    padding: 20px 30px;
+    border-radius: 8px;
+    border: 1px solid #9b4dff;
+    transition: 0.3s;
+}
+
+.interest:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 15px #9b4dff;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 10px;
+    background: #111422;
+    margin-top: 40px;
+    color: #9b9fb7;
+}
