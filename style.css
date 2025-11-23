@@ -67,7 +67,7 @@ header{
     padding: 40px 20px;
 }
 
-.interest-cards {
+.interestcards {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
